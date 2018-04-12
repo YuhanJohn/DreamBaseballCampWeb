@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>築夢棒球營</title>
+	
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsiveslides.css" />
+	<link rel="stylesheet" href="css/test.css">
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	<script src="js/test.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 962,
+			namespace: "centered-btns"
+		  });
+		});
+	</script>
+
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-61779105-1', 'auto');
+  		ga('send', 'pageview');
+		ga('send', 'timing', 'jQuery', 'Load Library', 20, 'Google CDN');
+	</script>
+</head>
+<body>
+<!--------------Header--------------->
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo">
+		<a href="index.html">
+		<img class="big" src="./images/logodbc.png"/>
+		</a>
+		<a target="_blank" href="https://www.facebook.com/DreamBaseballCamp">
+		<img class="small" src="./images/social/fbicon.png"/>
+		</a>
+		<a target="_blank" href="https://plus.google.com/u/0/b/101213757469969167815/101213757469969167815/posts">
+		<img class="small" src="./images/social/GPicon.png"/>
+		</a>
+		<a target="_blank" href="https://www.youtube.com/channel/UCIWwa3B1D9pfv4JZb2F133Q">
+		<img class="small" src="./images/social/yticon.png"/>
+		</a>
+		</div>
+		<!--<div class="social">
+			<ul>
+				<li><a href="#"><img src="./images/social/facebook-icon.png" /></a></li>
+				<li><a href="#"><img src="./images/social/google-icon.png" /></a></li>
+				<li><a href="#"><img src="./images/social/twitter-bird-icon.png" /></a></li>
+				<li><a href="#"><img src="./images/social/rss-icon.png" /></a></li>
+			</ul>
+		</div>-->
+		<nav>
+			<div class="wrap-nav">
+				<div id="menu">
+					<ul>
+						<li class="current"><a href="index.html" class="font1">最新消息</a></li>
+						<li><a href="#">認識築夢棒球營</a>
+							<ul>
+								<li><a href="intor.html">營隊介紹</a></li>
+								<li><a href="schedule.html">日程表</a></li>
+								<li><a href="lesson.html">課程規劃</a></li>
+							</ul>
+						</li>
+						<li><a href="#">報名辦法</a>
+							<ul>
+								<li><a href="signup.html">報名流程</a></li>
+								<li><a href="size.html">衣服尺寸表</a></li>
+								<li><a href="FAQ.html">FAQ</a></li>
+							</ul>
+						</li>
+						<li><a href="#">築夢影音</a>
+							<ul>
+								<li><a href="video.html">活動影片</a></li>
+								<li><a href="picture.html">活動照片</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">聯絡我們</a></li>
+						<li><a href="https://www.facebook.com/DreamBaseballCamp">留言板</a></li>
+					</ul>
+				</div>
+				
+				<div class="minimenu">
+				<div><img class="big" src="./images/logodbc.png"/>選單</div>
+					<select onchange="location=this.value">
+						<option></option>
+						<option value="index.html">最新消息</option>
+						<option value="intor.html">營隊介紹</option>
+						<option value="schedule.html">日程表</option>
+						<option value="lesson.html">課程規劃</option>
+						<option value="signup.html">報名流程</option>
+						<option value="size.html">衣服尺寸表</option>
+						<option value="FAQ.html">FAQ</option>
+						<option value="video.html">活動影片</option>
+						<option value="picture.html">活動照片</option>
+						<option value="contact.html">聯絡我們</option>
+					</select>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+
+<div class="featured">
+	<div class="wrap-featured zerogrid">
+		<div class="slider">
+			<div class="rslides_container">
+				<ul class="rslides" id="slider">
+					<li><a href="https://www.facebook.com/DreamBaseballCamp/photos/a.742945339059804.1073741828.730428370311501/950430951644574/?type=1&theater" target="_blank"><img src="images/5.png"/></a></li>
+					<li><a href="https://www.facebook.com/DreamBaseballCamp/photos/np.1428336638610691.100001447631544/932015900152746/?type=1&notif_t=notify_me" target="_blank"><img src="images/4.jpg"/></a></li>
+					<li><img src="images/3.jpg"/></li>
+					<li><img src="images/1.jpg"/></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--<div class="vpic">
+<a href="http://www.flyingv.cc/project/2847" target="_blank"><img src="./images/d1.png"/></a>
+<a href="https://www.youtube.com/watch?v=7MCmY4qHLmc" target="_blank"><img src="./images/d2.png"/></a>
+<a href="https://www.youtube.com/watch?v=YEA6Xrad4MM" target="_blank"><img src="./images/d3.png"/></a>
+</div>-->
+		
+<!--------------Content--------------->
+<section id="content" >
+<div class="wrap-content zerogrid">
+		
+		<div class="row block05 gallery" id="Cri_BTN">
+			<div class="title"><span>報名資訊</span></div>
+			<div class="col-1-2">
+				<div class="wrap-col">
+					<a href="./document/2rd_DreamBaseballCamp_Signup.docx" download><img src="images/pro1.jpg" class="grayscale"/></a>
+				</div>
+			</div>
+			<div class="col-1-2">
+				<div class="wrap-col">
+					<a href="signup.html"><img src="images/pro2.jpg" class="grayscale"/></a>
+				</div>
+			</div>
+		</div>
+</div>	
+<div class="wrap-content zerogrid">	
+		<div class="row block05">
+		<div class="title"><span>最新消息</span></div>
+			<div style="width:80%; margin: 0 auto;"><br>
+					<article>
+						<h2 align=center><a href="https://www.flyingv.cc/project/6522/blog/5314">【第二屆築夢棒球營---和中信兄弟洽談@洲際棒球場】</a></h2>
+						</br><p align=center>2015/05/15</br></p>
+						<div>營隊的規劃中，第二天的晚上將會前往洲際棒球場觀賞職棒比賽，欣賞職業球員的英姿。7/12(六)當天在洲際棒球場安排的是中信兄弟的主場賽程，因此營隊積極和中信兄弟接洽相關的合作事宜，目前暫定除了觀賞球賽外，將會有球場巡禮的行程 !!!不過還需營隊和中信兄弟進行更深入的洽談，才能確定當天完整的營隊行程，敬請期待後續的營隊進度報告 !!!希望能讓小朋友們體驗到現場觀賞球賽的精采氛圍 !!!</div>
+						</br>
+						<div class="row block03 gallery">
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_0001.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_0002.jpg" />
+							</div>
+						</div>
+						</div>
+					</article>
+			</div>			
+		</div>
+
+
+		<div class="row block05">
+		<div class="title"><span style="background:url('../images/divider.png') repeat-x 50% 50%"></span></div>
+			<div style="width:80%; margin: 0 auto;"><br>
+					<article>
+						<h2 align=center><a href="https://www.flyingv.cc/project/6522/blog/5313">【第二屆築夢棒球營---第二次籌備會議&第一次活動驗收】</a></h2>
+						</br><p align=center>2015/4/29</br></p>
+						<div>第二次的籌備會議，由各組的總監回報營隊的進展 !!!包括小朋友的報名狀況、宿舍的相關事項以及募資平台的上線進度等等，也透過志工們的討論及分享意見，擬定了初步的棒球課程及活動的規劃。</div>
+						</br>
+						<div class="row block03 gallery">
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1636.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1640.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1643.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1652.jpg" />
+							</div>
+						</div>
+						</div>
+						
+						<div>籌備會議的下半場，進行了營隊第一次的活動驗收，包含晚會表演和晚會遊戲等等。每一位志工都傾全力展現自己練習的成果，最後也透過檢討、相互討論，修正每一個小缺失，目的就是希望能帶給小朋友們一個精彩的營隊活動 !!!</div>
+						</br>
+						<div class="row block03 gallery">
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1716.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1778.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1813.jpg" />
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<img src="images/IMG_1819.jpg" />
+							</div>
+						</div>
+						</div>
+					</article>
+			</div>			
+		</div>
+
+		<div class="row block05">
+		<div class="title"><span style="background:url('../images/divider.png') repeat-x 50% 50%"></span></div>
+			<div style="width:80%; margin: 0 auto;"><br>
+					<article>
+						<h2 align=center><a href="https://www.flyingv.cc/project/6522/blog/5296">【第二屆築夢棒球營---第一次籌備會議】</a></h2>
+						</br><p align=center>2015/04/06</br></p>
+						<div>3月30日在中興大學社管大樓226教室，舉行了第二屆築夢棒球營的第一次工人籌備會議，會議裡確定了營隊的相關時程及報名事項，也規劃了志工們的工作分配。有關報名的資訊，請密切關注粉絲團及官方網站的最新消息 !!!
+這次營隊的志工中，有舊雨也有新知，雖然來自中興大學各系，但是我們有一個共同的目標：就是將繼續推廣台灣的基層棒球運動，幫助更多來自清寒家庭的小朋友圓夢。</div>
+						</br><img src="./images/4.jpg"/>
+					</article>
+			</div>			
+		</div>
+
+
+
+</div> <!--wrap-content zerogrid-->
+
+
+
+<footer>
+	<div class="copyright">
+		<p>Copyright © 2015 Dreambaseballcamp All rights reserved</p>
+	</div>
+</footer>
+</section>
+<!--------------Footer--------------->
+
+</body></html>
